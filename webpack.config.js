@@ -6,7 +6,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: 'build.js',
-        libraryTarget: 'umd'
+        libraryTarget: 'umd',
+        libraryExport: 'default'
     },
     module: {
         rules: [
