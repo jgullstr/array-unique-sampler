@@ -1,6 +1,6 @@
 {
   "name": "array-unique-sampler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sample random unique values from an array.",
   "author": "Josef Gullström",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "webpack -p",
     "test": "ava",
-    "prepublish": "npm build && npm test"
+    "prepublish": "npm run build && npm test"
   },
   "repository": {
     "type": "git",
